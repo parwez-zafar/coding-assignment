@@ -1,0 +1,203 @@
+.rightcontainer {
+    width: 40vmax;
+    margin-top: 2vmax;
+    margin-right: 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.sec-1 {
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.number {
+    /* border: 2px solid red; */
+    width: 9vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number>p {
+    margin-left: 2vmax;
+}
+
+.number>h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    background: #0096FF;
+    width: 2vmax;
+    height: 2vmax;
+    border-radius: 100px;
+}
+
+.plan {
+    /* border: 2px solid red; */
+    font-family: 'Roboto';
+    text-align: center;
+    margin: 1vmax 0;
+}
+
+.sec-3 {
+    border: 2px solid #BEBEBE;
+    background: #E7E7E7;
+    margin: 0.4vmax 0;
+    height: 4.5vmax;
+
+}
+
+.sec-3>p {
+    color: white;
+    background: #F77171;
+    width: 9vmax;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 6vmax;
+}
+
+.innerSec-3 {
+    display: flex;
+    width: 35vmax;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.innerSec-3>div {
+    color: #BEBEBE;
+}
+
+.innerSec-3-1 {
+    display: flex;
+
+}
+
+.sec-4 {
+    background: #D7EDDD;
+    border: 2px solid #47BA68;
+    margin: 0.5vmax;
+}
+
+.sec-4>p {
+    color: white;
+    background: #47BA68;
+    width: 9vmax;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 6vmax;
+}
+
+.innerSec-3>div {
+    color: #3C4852;
+}
+
+.sec-5 {
+    /* align-items: center; */
+    /* align-content: center; */
+    /* margin-bottom: 2vmax; */
+    border: 2px solid rgb(174, 173, 173);
+    background: #ffff;
+    display: flex;
+}
+
+.sec-6 {
+    /* width: 35.2vmax; */
+    margin-top: 1.5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #BEBEBE;
+}
+
+.sec-6-1 {
+    display: flex;
+    width: 34vmax;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 0.5vmax;
+}
+
+.sec-6-2 {
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 35vmax;
+    height: 6vmax;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* padding: 0.5vmax; */
+}
+
+.sec-6-2-1 {
+    /* border: 2px solid red; */
+    width: 34vmax;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-6-2-2 {
+    display: flex;
+    margin-left: 2vmax;
+    width: 17vmax;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+}
+
+.sec-6-3 {
+    display: flex;
+    width: 35vmax;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vmax;
+    /* border: 2px solid; */
+}
+
+.btn-div {
+    width: 35vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vmax;
+}
+
+.btn-div>button {
+    height: 4vmax;
+    width: 15vmax;
+}
+
+.cancel {
+    color: #F77171;
+    font-weight: bold;
+    border: 2px solid #F77171;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.proceed {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #47BA68;
+    border: 2px solid #47BA68;
+    ;
+    border-radius: 4px;
+}
+
+.razorpay {
+    padding: 0 3vmax;
+    align-self: flex-start;
+}

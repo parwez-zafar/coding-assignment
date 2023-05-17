@@ -1,0 +1,51 @@
+.container {
+    margin-top: 2vmax;
+}
+
+.section-1 {
+    margin: 0;
+    /* border: 2px solid white; */
+    /* border: 2px solid red; */
+    /* margin-top: 29vmax; */
+}
+
+.blue {
+    color: #0096FF;
+
+}
+
+.container {
+    padding: 0 8vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+.text>img {
+    width: 4vmax;
+    height: 4vmax;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1vmax 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 2vmax;
+    font-size: 1.4vmax;
+    font-family: 'Raleway';
+}
